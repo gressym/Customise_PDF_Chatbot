@@ -7,7 +7,7 @@ from langchain.schema import HumanMessage
 import re
 
 # ==== CONFIG ====
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "Groq Api Key"
 MODEL_NAME = "llama3-70b-8192"
 
 llm = ChatGroq(api_key=GROQ_API_KEY, model_name=MODEL_NAME)
