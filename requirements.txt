@@ -3,3 +3,4 @@ PyMuPDF
 langgraph
 langchain
 langchain-groq
+fitz
