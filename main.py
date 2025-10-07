@@ -5,9 +5,10 @@ from langgraph.graph import StateGraph
 from langchain_groq import ChatGroq
 from langchain.schema import HumanMessage
 import re
+import os
 
 # ==== CONFIG ====
-GROQ_API_KEY = "Groq Api Key"
+GROQ_API_KEY =os.environ.get("GROQ_API_KEY")
 MODEL_NAME = "llama3-70b-8192"
 
 llm = ChatGroq(api_key=GROQ_API_KEY, model_name=MODEL_NAME)
